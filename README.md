@@ -13,4 +13,10 @@ If not installed, you can install these by running the following command in your
     ```bash
     pip install numpy matplotlib deap
     ```
-  
+## Features
+
+- **Random Location Generation**: Generates random coordinates for a specified number of locations.
+- **Genetic Algorithm Implementation**: Uses selection, crossover, and mutation operations to evolve solutions.
+- **Multiple Vehicles Support**: Balances the load among a specified number of vehicles.
+- **Distance and Balance Optimization**: Minimizes total distance traveled and ensures balanced load distribution using a penalty for imbalance.
+- **Visualization**: Plots the routes of the vehicles, showing the path each vehicle takes from the depot to the locations and back.
